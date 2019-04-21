@@ -38,9 +38,17 @@ export default {
   color: #55acee;
   font-size:50px;
 }
-.fa{
 
-}
+
+.btn{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: skyblue;
+  text-align:center;
+  line-height: 80px;
+  }
 
 
 </style>
