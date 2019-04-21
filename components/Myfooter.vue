@@ -39,7 +39,16 @@ export default {
   font-size:50px;
 }
 .fa{
-  transform:rotate(45deg);
+  /* transform:rotate(45deg); */
+}
+.btn{
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: skyblue;
+  text-align:center;
+  line-height: 80px;
 }
 
 
