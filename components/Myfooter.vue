@@ -39,7 +39,7 @@ export default {
   font-size:50px;
 }
 .fa{
-  transform:rotate(45deg);
+
 }
 
 
