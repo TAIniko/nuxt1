@@ -83,7 +83,7 @@ export default{
 
 /*三角形１*/
 .triangle1{
-  border-top: 86.6025px solid rgb(230,0,18,0.6);
+  border-top: 86.6025px solid rgb(255,0,81,0.6);
   border-right: 50px solid transparent;
   border-left: 50px solid transparent;
   display: block;
@@ -101,7 +101,7 @@ a:hover .triangle1{
 /*三角形２*/
 .triangle2{
   border-right: 50px solid transparent;
-  border-bottom: 86.6025px solid rgb(76,175,80,0.6);
+  border-bottom: 86.6025px solid rgb(159, 242, 173,0.7);
   border-left: 50px solid transparent;
   margin:5px;
 }

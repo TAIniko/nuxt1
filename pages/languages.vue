@@ -6,32 +6,31 @@
       class="title"
       :title="languagesTitle"
     />
-    <div class="languages-wrapper main">
+    <div class="languages-wrapper">
       <div
         v-for="language in languages"
         :key="language.name"
+        class="language-children"
       >
-        <div class="pe">
-          <h1>
-            {{ language.name }}
-          </h1>
-          <div class="languageText">
-            {{ language.text }}
-          </div>
-        </div>
+        <h1 class="language-name">
+          {{ language.name }}
+        </h1>
+        {{ language.text }}
         <p>{{ language.level }}</p>
       </div>
     </div>
+    <myfooter />
   </div>
 </template>
 <script>
 import Myheader from '~/components/Myheader.vue'
 import Title from '~/components/Title.vue'
-
+import Myfooter from '@/components/Myfooter'
 export default {
   components:{
     Myheader,
-    Title
+    Title,
+    Myfooter
   },
   data: function(){
     return{
@@ -81,14 +80,25 @@ export default {
   display:flex;
   justify-content:space-around;
   align-content:space-around;
+  flex-wrap:wrap;
 }
 .languages-wrapper p{
   font-weight:bold;
+  position:absolute;
+  bottom:0;
 }
 .languageName{
   font-weight: bold;
+  bottom:0;
+}
+.language-children{
+  margin: 0 20px 40px 0;
+  background-color: #f7f7f7;
+  border-radius:6px;
+  width:30%;
+  height:300px;
+  padding:20px;
+  position:relative
 }
 
-.pe{
-}
 </style>

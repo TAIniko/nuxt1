@@ -9,15 +9,18 @@
     <div class="main">
       <p>{{ content }}</p>
     </div>
+    <myfooter />
   </div>
 </template>
 <script>
 import Myheader from '~/components/Myheader.vue'
 import Title from '~/components/Title.vue'
+import Myfooter from '@/components/Myfooter'
 export default {
   components:{
     Myheader,
-    Title
+    Title,
+    Myfooter
   },
   data(){
     return{

@@ -6,10 +6,11 @@
       class="title"
       :title="frameworksTitle"
     />
-    <div class="frameworks-wrapper main">
+    <div class="frameworks-wrapper ">
       <div
         v-for="framework in frameworks"
         :key="framework.name"
+        class="framework-chil"
       >
         <h1>
           {{ framework.name }}
@@ -59,8 +60,21 @@ export default {
 .frameworks-wrapper{
   display:flex;
   justify-content:space-around;
+  align-content:space-around;
+  height:500px;
+}
+.framework-chil{
+  margin: 0 20px 40px 0;
+  background-color: #f7f7f7;
+  border-radius:6px;
+  width:30%;
+  height:300px;
+  padding:20px;
+  position:relative;
 }
 .frameworks-wrapper p{
   font-weight:bold;
+  position:absolute;
+  bottom:0;
 }
 </style>

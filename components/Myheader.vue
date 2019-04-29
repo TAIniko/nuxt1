@@ -77,11 +77,12 @@ export default {
   text-align:center;
   color:black;
   opacity:0.7;
+  margin-bottom:50px;
 }
 
 
 .menu:hover {
-  background-color: rgb(230,0,18,0.6);
+  background-color: rgb(255,0,81,0.7);
   transition: 0.4s;
 }
 

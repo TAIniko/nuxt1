@@ -18,5 +18,6 @@ export default {
 <style lang="css" scoped>
 #title{
   text-align:center;
+  margin-bottom:50px;
 }
 </style>
