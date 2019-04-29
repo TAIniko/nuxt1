@@ -25,7 +25,7 @@
   </div>
 </template>
 <script>
-import Mtfooter from '@/components/Myfooter'
+import Mfooter from '@/components/Myfooter'
 import Myheader from '~/components/Myheader.vue'
 import Title from '~/components/Title.vue'
 export default {
