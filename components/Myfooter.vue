@@ -39,29 +39,19 @@ export default {
   color: #55acee;
   font-size:50px;
 }
-<<<<<<< HEAD
 .fa{
   /* transform:rotate(45deg); */
 }
+
+
 .btn-tw{
-=======
-
-
-.btn{
->>>>>>> bd1de4e941c1525457fd52e4fd70330863259906
+  margin-right:50px;
   display: inline-block;
   width: 80px;
   height: 80px;
   border-radius: 50%;
-<<<<<<< HEAD
   text-align:center;
   line-height: 80px;
-}
-.twitter:hover{
-  color:white;
-}
-.btn-tw:hover{
-  background-color:#55acee;
 }
 .btn-fa{
   display: inline-block;
@@ -71,12 +61,18 @@ export default {
   text-align:center;
   line-height: 80px;
 }
-=======
-  background: skyblue;
-  text-align:center;
-  line-height: 80px;
-  }
->>>>>>> bd1de4e941c1525457fd52e4fd70330863259906
+.twitter:hover{
+  color:white;
+}
+.facebook:hover{
+  color:white;
+}
+.btn-tw:hover{
+  background-color:#55acee;
+}
+.btn-fa:hover{
+  background-color:#3b5998;
+}
 
 
 </style>

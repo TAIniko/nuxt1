@@ -21,15 +21,18 @@
         <p>{{ framework.level }}</p>
       </div>
     </div>
+    <myfooter />
   </div>
 </template>
 <script>
+import Mtfooter from '@/components/Myfooter'
 import Myheader from '~/components/Myheader.vue'
 import Title from '~/components/Title.vue'
 export default {
   components:{
     Myheader,
-    Title
+    Title,
+    Myfooter
   },
   data: function(){
     return{
